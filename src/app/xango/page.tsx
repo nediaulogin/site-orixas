@@ -9,7 +9,7 @@ export default function ItanOgum() {
         <h2 className="text-4xl font-bold mb-6 text-center">Xangô</h2>
 
         <p className="text-2xl mb-4">
-          Xangô Airá, aquele que se veste de branco, foi um dia às terras do velho Oxalá para levá-lo à festa que faziam em sua cidade.
+          Xangô Airá, aquele, que se veste de branco, foi um dia às terras do velho Oxalá para levá-lo à festa que faziam em sua cidade.
           Oxalá era velho e lento, Por isso Xangô o levava nas costas. Quando se aproximavam do destino,
           avistaram a grande pedreira de Xangô, bem perto de seu grande palácio.
           Xangô levou Oxalá ao cume, para dali mostrar ao velho amigo todo o seu império e poderio.
