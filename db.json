@@ -1,0 +1,52 @@
+{
+  "orixas": [
+    {
+      "id": 1,
+      "nome": "Exu",
+      "historias": [
+        {
+          "id": 1,
+          "titulo": "Exu abre os caminhos",
+          "conteudo": "<p>Exu é o mensageiro e abre os caminhos para os homens...</p>"
+        },
+        {
+          "id": 2,
+          "titulo": "Exu e a comunicação",
+          "conteudo": "<p>Exu é responsável pela comunicação entre os orixás e os homens...</p>"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Ogum",
+      "historias": [
+        {
+          "id": 1,
+          "titulo": "Ogum e o ferro",
+          "conteudo": "<p>Ogum é o senhor do ferro, da guerra e da tecnologia...</p>"
+        },
+        {
+          "id": 2,
+          "titulo": "Ogum e os caminhos",
+          "conteudo": "<p>Ogum abre os caminhos com sua espada e sua força...</p>"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Oxum",
+      "historias": [
+        {
+          "id": 1,
+          "titulo": "Oxum e as águas doces",
+          "conteudo": "<p>Oxum é senhora das águas doces, ligada ao amor e à fertilidade...</p>"
+        },
+        {
+          "id": 2,
+          "titulo": "Oxum e a beleza",
+          "conteudo": "<p>Oxum é símbolo da beleza, riqueza e maternidade...</p>"
+        }
+      ]
+    }
+  ]
+}
