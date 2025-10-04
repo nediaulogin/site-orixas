@@ -1,0 +1,37 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// schema.prisma
+/*generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}*/
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+
+
+model Orixa {
+  id        Int        @id @default(autoincrement())
+  nome      String
+  historias Historia[]  // 1 orixá -> muitas histórias
+}
+
+model Historia {
+  id       Int    @id @default(autoincrement())
+  titulo   String
+  conteudo String
+  orixaId  Int
+  orixa    Orixa  @relation(fields: [orixaId], references: [id])
+}

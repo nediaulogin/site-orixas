@@ -1,20 +1,21 @@
 import Link from "next/link"
 
+
 export default function Card({ historia }: any) {
     return (
         <div 
             className='
-                border-2 border-blue-600 
+                border-2 border-black 
                 p-4 rounded-md 
-                bg-gray-900/80 backdrop-blur-md 
+                bg-fuchsia-600 backdrop-blur-md 
                 flex flex-col items-center mt-4
                 shadow-md 
-                transform transition duration-300 
-                hover:scale-105 hover:shadow-xl
+                transform transition duration-300 x
+                hover:scale-105 hover:shadow-fuchsia-700
             '
         >
             <p className="
-                font-bold my-2 text-white 
+                font-bold my-2 text-black 
                 bg-blue-800/90 rounded-md px-2
                 flex justify-center
             ">
@@ -22,7 +23,7 @@ export default function Card({ historia }: any) {
             </p>
 
             <h3 className="
-                font-bold my-2 text-white 
+                font-bold my-2 text-black  
                 text-2xl capitalize
             ">
                 {historia.titulo}
