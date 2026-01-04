@@ -29,8 +29,8 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        
- {  /*     <Image
+
+        {  /*     <Image
           src="/images/background.jpg" // Caminho da sua imagem
           alt="Background"
           fill
@@ -38,7 +38,7 @@ export default function RootLayout({
           quality={100}
           className="absolute -z-10"
         />*/}
-        <Navbar />
+
         {children}
       </body>
     </html>

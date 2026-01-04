@@ -36,7 +36,7 @@ export default function Circles() {
             <Link key={index} href={circle.href} passHref>
               <div
                 className="absolute w-28 h-28 rounded-full overflow-hidden shadow-lg 
-                transition-transform hover:scale-110 group"
+                transition-transform hover:scale-110 group border-2 border-white"
                 style={{
                   left: "50%",
                   top: "50%",
@@ -65,16 +65,19 @@ export default function Circles() {
         })}
 
         {/* Texto centralizado no círculo maior */}
-        <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 
-        bg-gray-900 text-white text-center p-10 rounded-full shadow-lg max-w-md">
-          <p className="text-sm ">
-            No princípio, só existia <strong>Olodumaré</strong>, o Ser Supremo, que criou tudo. 
-            O universo era um grande vazio até que Olodumaré decidiu criar dois reinos distintos: 
-            <strong> Orun</strong>, o mundo espiritual, e <strong>Aiê</strong>, o mundo material. 
-            Ele confiou a criação do Aiê a <strong>Obatalá (Oxalá)</strong>, que espalhou a terra sobre as águas primordiais, 
-            dando forma ao mundo físico. Assim, a separação entre Orun e Aiê foi estabelecida, 
-            conectando ambos através do <strong>axé</strong>, a força vital.
-          </p>
+        <div className="absolute left-1/2 top-1/2 transform 
+          -translate-x-1/2 -translate-y-1/2
+           w-64 h-64 rounded-full overflow-hidden 
+          shadow-xl border-4 border-white group"
+        >
+          <Image
+            src="https://i.pinimg.com/1200x/4e/d2/74/4ed2746a854adfe56211cf993aeda307.jpg"
+            alt="Olodumaré"
+            fill
+            className="object-cover"
+            priority
+          />
+
         </div>
       </div>
     </div>

@@ -1,5 +1,4 @@
 import Card from "@/_components/Card";
-import Background from "./_components/background";
 
 interface Historia {
   id: number;
@@ -12,6 +11,7 @@ export default async function ItanOgum() {
   const api = `http://localhost:3000/api/orixas/1`;
 
   const res = await fetch(api, { cache: "no-store" });
+  console.log(res);
   if (!res.ok) {
     throw new Error("Erro ao buscar dados da API");
   }
