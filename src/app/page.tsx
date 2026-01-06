@@ -14,7 +14,7 @@ const HomePage: React.FC = () => {
         <p className="text-md text-black text-center p-4">
           No princípio, só existia <strong>Olodumaré</strong>, o Ser Supremo, que criou tudo.
           O universo era um grande vazio até que Olodumaré decidiu criar dois reinos distintos:
-          <strong> Orun</strong>, o mundo espiritual, e <strong>Aiê</strong>, o mundo material.
+          <strong> Orun</strong>, o mundo espiritual, e <strong>Aiê</strong>, o mundo material. test
 
 
         </p>
